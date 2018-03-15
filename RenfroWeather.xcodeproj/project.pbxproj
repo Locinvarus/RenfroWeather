@@ -17,7 +17,7 @@
 		8F8E9F47203A7AA500CBCD0F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F8E9F45203A7AA500CBCD0F /* LaunchScreen.storyboard */; };
 		8FC3422B2051724200615311 /* WeatherDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FC3422A2051724200615311 /* WeatherDataModel.swift */; };
 		8FE41B3B204A79FE00567284 /* AstronomyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FE41B3A204A79FE00567284 /* AstronomyViewController.swift */; };
-		8FEDE65A205A1B9E00C4FA7B /* App.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8FEDE659205A1B9E00C4FA7B /* App.plist */; };
+		8FF1DBDA205A2743003670A5 /* App.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8FF1DBD9205A2743003670A5 /* App.plist */; };
 		8FF2084420499FA500FB6EE6 /* WebcamViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FF2084320499FA500FB6EE6 /* WebcamViewController.swift */; };
 		8FF208462049A82000FB6EE6 /* RadarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FF208452049A82000FB6EE6 /* RadarViewController.swift */; };
 		8FF208482049A8D300FB6EE6 /* SurfaceMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FF208472049A8D300FB6EE6 /* SurfaceMapViewController.swift */; };
@@ -38,7 +38,7 @@
 		8F8E9F48203A7AA500CBCD0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8FC3422A2051724200615311 /* WeatherDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherDataModel.swift; sourceTree = "<group>"; };
 		8FE41B3A204A79FE00567284 /* AstronomyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstronomyViewController.swift; sourceTree = "<group>"; };
-		8FEDE659205A1B9E00C4FA7B /* App.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = App.plist; sourceTree = "<group>"; };
+		8FF1DBD9205A2743003670A5 /* App.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = App.plist; sourceTree = "<group>"; };
 		8FF2084320499FA500FB6EE6 /* WebcamViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebcamViewController.swift; sourceTree = "<group>"; };
 		8FF208452049A82000FB6EE6 /* RadarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadarViewController.swift; sourceTree = "<group>"; };
 		8FF208472049A8D300FB6EE6 /* SurfaceMapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SurfaceMapViewController.swift; sourceTree = "<group>"; };
@@ -94,7 +94,6 @@
 				8F8E9F3C203A7AA500CBCD0F /* AppDelegate.swift */,
 				8F471B53204A6F1400D3E69B /* AppUtilities.swift */,
 				8F8E9F3E203A7AA500CBCD0F /* SurfaceViewController.swift */,
-				8FEDE659205A1B9E00C4FA7B /* App.plist */,
 				8FE41B3A204A79FE00567284 /* AstronomyViewController.swift */,
 				8FF2084320499FA500FB6EE6 /* WebcamViewController.swift */,
 				8F8E9F40203A7AA500CBCD0F /* Main.storyboard */,
@@ -104,6 +103,7 @@
 				8F8E9F45203A7AA500CBCD0F /* LaunchScreen.storyboard */,
 				8F8E9F48203A7AA500CBCD0F /* Info.plist */,
 				8FC3422A2051724200615311 /* WeatherDataModel.swift */,
+				8FF1DBD9205A2743003670A5 /* App.plist */,
 			);
 			path = RenfroWeather;
 			sourceTree = "<group>";
@@ -179,7 +179,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8FEDE65A205A1B9E00C4FA7B /* App.plist in Resources */,
+				8FF1DBDA205A2743003670A5 /* App.plist in Resources */,
 				8F8E9F47203A7AA500CBCD0F /* LaunchScreen.storyboard in Resources */,
 				8F8E9F44203A7AA500CBCD0F /* Assets.xcassets in Resources */,
 				8F8E9F42203A7AA500CBCD0F /* Main.storyboard in Resources */,

@@ -35,7 +35,7 @@ class AppHelper: NSObject {
         var resourceFileDictionary: NSDictionary?
         var returnValue: String = ""
         
-        //Load content of Info.plist into resourceFileDictionary dictionary
+        //Load content of App.plist into resourceFileDictionary dictionary
         if let path = Bundle.main.path(forResource: "App", ofType: "plist") {
             resourceFileDictionary = NSDictionary(contentsOfFile: path)
         }
@@ -43,7 +43,7 @@ class AppHelper: NSObject {
         if let resourceFileDictionaryContent = resourceFileDictionary {
             
             // Get value from App.plist that matches the key parameter
-            if resourceFileDictionaryContent.object(forKey: "API_KEY")! as! String == key {
+            if resourceFileDictionaryContent.object(forKey: key) != nil {
                 returnValue = resourceFileDictionaryContent.object(forKey: key)! as! String
             }
             
