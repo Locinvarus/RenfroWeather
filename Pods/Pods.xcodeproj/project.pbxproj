@@ -1,0 +1,1010 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0618C92FD493197A6EC787751BA69C06 /* DateTimeInterval.swift in Sources */ = {isa = PBXBuildFile; fileRef = 754BA5472764F11DA288CE718D4A3CF5 /* DateTimeInterval.swift */; };
+		0C8E80718BDB61C77C6562B4198A9D13 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F869A4542E1F76488A9C22B0DE6C737 /* Extensions.swift */; };
+		0DD60E297AEFDCCE231D09BAD14AC7DC /* DateInRegion+Components.swift in Sources */ = {isa = PBXBuildFile; fileRef = E85954BE05A8519F0009F0EC442B6019 /* DateInRegion+Components.swift */; };
+		0E0BC979AD53E9668621BC8CE203AFFC /* Date+Compare.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90F00F42067CAE4D89995CFDB90A4E34 /* Date+Compare.swift */; };
+		14A96EBC3380CC7F3F68CCD5D652AB95 /* DateInRegion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BAB511F7338F624A021EF943A5D5CE8 /* DateInRegion.swift */; };
+		1CE61CD3F2E3D947871787863E00C9D5 /* Ionicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C4F0F659EAA9B4AF36A30AADC920F1BB /* Ionicons.ttf */; };
+		1F015D6E4A2D0A8E1735BFF31E475DE8 /* DateInRegionFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C62B75D9DC05AC2C829E505C728EC55 /* DateInRegionFormatter.swift */; };
+		28895D4C7FAF37819A917B227CC97BB5 /* TimeZoneName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7916F6A0F1F71E1407EA517A5648419D /* TimeZoneName.swift */; };
+		2D1ED593C60202B543AD4A3AD1FCD56C /* Stateface.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D9BBD8702A4598F75A6F4EFB67BD2E60 /* Stateface.ttf */; };
+		2E06A54AF3FF3FD211D627E74CBE4300 /* WeatherIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E4D3A27AFEE6EF22FF74BAE321FB0608 /* WeatherIcons.ttf */; };
+		2FE7AF5FC84AD10893C602BDF0751DD5 /* DOTNETDateTimeFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1E84EC7697E5CEDC0EB27054BEF04FE /* DOTNETDateTimeFormatter.swift */; };
+		35268A4C035B1F665C817B1B11CBA506 /* Pods-RenfroWeather-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FCDF06A97715AB2D1C0A045351569C7C /* Pods-RenfroWeather-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3FA794B7E7E4B76A975D6A2B53A027C6 /* TimeInterval+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5924F0621D62944E73401EA97AAAD20 /* TimeInterval+Extensions.swift */; };
+		45EFE8FB9A2A69D0D7C161016DDADE06 /* DateInRegion+Math.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5710AECF156905666CBE0F87AB4180A0 /* DateInRegion+Math.swift */; };
+		474B134BB05BD9B2AC4158E6FDD15E47 /* SwiftIcons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87DA39E4AA4BB3BD6D654303DB2DE202 /* SwiftIcons.swift */; };
+		49D27CBD543ECCCCF97BDA625A79783C /* DateComponents+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6771E58B354ADC171908AC7FD2BC47C /* DateComponents+Extension.swift */; };
+		4C7146163F5076028417A3CBD1FD9D4F /* DateInRegion+Compare.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA184609C2417F7DF0A925CDCD9ECB62 /* DateInRegion+Compare.swift */; };
+		55DD15BCCDF1E60D0FA024409C837667 /* Localization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CB0E06D815D2818C94CE0C91CE3C634 /* Localization.swift */; };
+		5CF224216F7D1AA2F1DC0983FC880DBB /* SwiftIcons.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 5E5EA48EF671B5EE828FD4B0C40AF2A7 /* SwiftIcons.bundle */; };
+		5F24F814E11483A681D282CBC0A908D2 /* SwiftDate-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B2182D75D84CB5CEFA2CCC6422C6C711 /* SwiftDate-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		60B62D6B49946625A9AF318BEE63AFF1 /* FontAwesome.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5946B30E6FECA500D0D28470AE0EC268 /* FontAwesome.ttf */; };
+		6139E4537EF6475E6764A8850B5E3FAF /* MaterialIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CA8ED407616046F8A6B53BB3D33F11E9 /* MaterialIcons.ttf */; };
+		6C27C097D2908F867A983F6774408DDF /* Date+Formatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A272F96BBDEB885199BAF584477B7373 /* Date+Formatter.swift */; };
+		7606864A9AD46647E383812FA5825E27 /* Pods-RenfroWeather-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A8B9C5147AB74FB122BC5879918B7EF /* Pods-RenfroWeather-dummy.m */; };
+		765347E34205ACFCF6C831EEE352D243 /* Date+Math.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A6776D8A1640B797ECBEB3C24237EF /* Date+Math.swift */; };
+		7DD7A5F65641A9D29C65DB62EC5031BE /* SwiftDate.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 6E5144700AEED69C62073731D7F7212B /* SwiftDate.bundle */; };
+		900890D8ADD390495C8FCD1FCD7C2B9D /* OpenIconic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0EBE3631ABEDBB9DCE6082E4D7E530B9 /* OpenIconic.ttf */; };
+		955511750FD9EDCE720605265BBC77A1 /* SwiftIcons-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B4D5ADB345FBF2768249B4FE6753EC47 /* SwiftIcons-dummy.m */; };
+		B26DF4B3440D39DE0492E60493C9BB73 /* Region.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B4DA5A4D0E212477E8D7551AC51BE5 /* Region.swift */; };
+		B3D726748AD2AA6496A8A780A4E8FDBA /* Dripicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C15B5C3DF96EF7FDC805E567F02D8E91 /* Dripicons.ttf */; };
+		B4A7387B312C6B714B2B2F928D6DE495 /* Icofont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 41BDDA8E5FA215F72697F9341C9A6326 /* Icofont.ttf */; };
+		BB008742F4D4D61C8BB43D6BFCB446E1 /* DateInRegion+Formatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 620FD83EBB6264FC562FD6FA1D6C235D /* DateInRegion+Formatter.swift */; };
+		BCDCEF8D8374EC18939738A318A49E95 /* ISO8601Parser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CB5104A263E616641A81BDDCF0C198F /* ISO8601Parser.swift */; };
+		C65C80202C32CE3C03A4E9E9E00AF2B7 /* CalendarName.swift in Sources */ = {isa = PBXBuildFile; fileRef = D44FD282140719E01ACC5F80AEE169C0 /* CalendarName.swift */; };
+		CEA60206DA6529AA2FD3B7F74F47319F /* Commons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 824F91EBA200AB24D34A400D7A85E0BF /* Commons.swift */; };
+		D350300670E08F9814B2F1BDE0D7191D /* Date+Components.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62D262C0A62E210B3C4E9729FD34CD92 /* Date+Components.swift */; };
+		D5154FEF991B7F01BB0A6C535D8F9880 /* ColloquialDateFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B35BEB4499FD81A305B927312B3535E4 /* ColloquialDateFormatter.swift */; };
+		D96B9EB35BD14F8EB810EE35D8598873 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		DD73459DD843D5A6DE8CCE9CE0134AB4 /* LocaleName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227DD3804D6AFDEDB628EE2A48B672AE /* LocaleName.swift */; };
+		DEA71DD00C331BC9B0108DD89F4FB8F9 /* Linearicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 10C2B930FAE5840B636E83EC1FA72EDF /* Linearicons.ttf */; };
+		DFC678CDE831DD5BA2A0EB829293A1C6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		ED0A0559565F7BC90AF667D5C3A1D4DE /* MapIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 40E405A5900E850B579F97A3483A9C28 /* MapIcons.ttf */; };
+		EF263B283E2D91A4D4A6899EFF6665C4 /* SwiftDate-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 202BAD80A5CE552DDC65DA3A81DC77AE /* SwiftDate-dummy.m */; };
+		F3B4D5AFD7C5333E60E2FB3061B228E8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		F4887A100D1DEE3B4019BED0D4E3390D /* Emoji.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1AFB2E5DDEC3700349FFE175B3E92AD4 /* Emoji.ttf */; };
+		F70D32A80CA898F1C3F0A39767DEED56 /* SwiftIcons-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 98CCF7412D8977600DD1F704652F1D13 /* SwiftIcons-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FB9B731B2BCA8008554C9E322D2D05E7 /* ISO8601DateTimeFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40138AC27ECACA3AA313AF0CDA49AAE5 /* ISO8601DateTimeFormatter.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7080C5BEFEA98C67B9F985A7F14DABF5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2A84BBC36D19FB309D263F8A3EBA7C2A;
+			remoteInfo = SwiftIcons;
+		};
+		C6A7C7C1E7B57ECF3DD3C3040C2EC73E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E48E6C2A283C503D4F624EA8CC79A942;
+			remoteInfo = "SwiftIcons-SwiftIcons";
+		};
+		CD0D43F3D06A42EB177EC67BD2614A11 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A35329194C37AA862F852020D6A2E767;
+			remoteInfo = SwiftDate;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00A3735B709B12161FCC31E2B58FAB01 /* ResourceBundle-SwiftIcons-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-SwiftIcons-Info.plist"; sourceTree = "<group>"; };
+		029B599FB587A537AB47A3BE4454683E /* SwiftDate.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftDate.modulemap; sourceTree = "<group>"; };
+		0C62B75D9DC05AC2C829E505C728EC55 /* DateInRegionFormatter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DateInRegionFormatter.swift; path = Sources/SwiftDate/DateInRegionFormatter.swift; sourceTree = "<group>"; };
+		0EB420A117C71FB1B9F733F7316631DA /* SwiftDate.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftDate.xcconfig; sourceTree = "<group>"; };
+		0EBE3631ABEDBB9DCE6082E4D7E530B9 /* OpenIconic.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = OpenIconic.ttf; path = Source/OpenIconic.ttf; sourceTree = "<group>"; };
+		10C2B930FAE5840B636E83EC1FA72EDF /* Linearicons.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = Linearicons.ttf; path = Source/Linearicons.ttf; sourceTree = "<group>"; };
+		1AFB2E5DDEC3700349FFE175B3E92AD4 /* Emoji.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = Emoji.ttf; path = Source/Emoji.ttf; sourceTree = "<group>"; };
+		202BAD80A5CE552DDC65DA3A81DC77AE /* SwiftDate-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftDate-dummy.m"; sourceTree = "<group>"; };
+		227DD3804D6AFDEDB628EE2A48B672AE /* LocaleName.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LocaleName.swift; path = Sources/SwiftDate/LocaleName.swift; sourceTree = "<group>"; };
+		23739A4CC6A318AF644FF84E14788559 /* Pods-RenfroWeather-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RenfroWeather-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3CB5104A263E616641A81BDDCF0C198F /* ISO8601Parser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ISO8601Parser.swift; path = Sources/SwiftDate/ISO8601Parser.swift; sourceTree = "<group>"; };
+		40138AC27ECACA3AA313AF0CDA49AAE5 /* ISO8601DateTimeFormatter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ISO8601DateTimeFormatter.swift; path = Sources/SwiftDate/ISO8601DateTimeFormatter.swift; sourceTree = "<group>"; };
+		40E405A5900E850B579F97A3483A9C28 /* MapIcons.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = MapIcons.ttf; path = Source/MapIcons.ttf; sourceTree = "<group>"; };
+		41BDDA8E5FA215F72697F9341C9A6326 /* Icofont.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = Icofont.ttf; path = Source/Icofont.ttf; sourceTree = "<group>"; };
+		45A6776D8A1640B797ECBEB3C24237EF /* Date+Math.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Date+Math.swift"; path = "Sources/SwiftDate/Date+Math.swift"; sourceTree = "<group>"; };
+		517DF6C4C3AE0BD5724DEF54084651AE /* SwiftIcons.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftIcons.xcconfig; sourceTree = "<group>"; };
+		5710AECF156905666CBE0F87AB4180A0 /* DateInRegion+Math.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DateInRegion+Math.swift"; path = "Sources/SwiftDate/DateInRegion+Math.swift"; sourceTree = "<group>"; };
+		5946B30E6FECA500D0D28470AE0EC268 /* FontAwesome.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = FontAwesome.ttf; path = Source/FontAwesome.ttf; sourceTree = "<group>"; };
+		5A66B2046F328AF26A3B38D6F942843F /* SwiftIcons.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftIcons.framework; path = SwiftIcons.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BAB511F7338F624A021EF943A5D5CE8 /* DateInRegion.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DateInRegion.swift; path = Sources/SwiftDate/DateInRegion.swift; sourceTree = "<group>"; };
+		5E5EA48EF671B5EE828FD4B0C40AF2A7 /* SwiftIcons.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = SwiftIcons.bundle; path = "SwiftIcons-SwiftIcons.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		620FD83EBB6264FC562FD6FA1D6C235D /* DateInRegion+Formatter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DateInRegion+Formatter.swift"; path = "Sources/SwiftDate/DateInRegion+Formatter.swift"; sourceTree = "<group>"; };
+		62D262C0A62E210B3C4E9729FD34CD92 /* Date+Components.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Date+Components.swift"; path = "Sources/SwiftDate/Date+Components.swift"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		68CDFFB2B270900EE7F3DCCEFBDE95B6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6E5144700AEED69C62073731D7F7212B /* SwiftDate.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = SwiftDate.bundle; path = Sources/SwiftDate/SwiftDate.bundle; sourceTree = "<group>"; };
+		754BA5472764F11DA288CE718D4A3CF5 /* DateTimeInterval.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DateTimeInterval.swift; path = Sources/SwiftDate/DateTimeInterval.swift; sourceTree = "<group>"; };
+		7916F6A0F1F71E1407EA517A5648419D /* TimeZoneName.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TimeZoneName.swift; path = Sources/SwiftDate/TimeZoneName.swift; sourceTree = "<group>"; };
+		7F869A4542E1F76488A9C22B0DE6C737 /* Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Extensions.swift; path = Sources/SwiftDate/Extensions.swift; sourceTree = "<group>"; };
+		824F91EBA200AB24D34A400D7A85E0BF /* Commons.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Commons.swift; path = Sources/SwiftDate/Commons.swift; sourceTree = "<group>"; };
+		87DA39E4AA4BB3BD6D654303DB2DE202 /* SwiftIcons.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftIcons.swift; path = Source/SwiftIcons.swift; sourceTree = "<group>"; };
+		8A8B9C5147AB74FB122BC5879918B7EF /* Pods-RenfroWeather-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RenfroWeather-dummy.m"; sourceTree = "<group>"; };
+		90F00F42067CAE4D89995CFDB90A4E34 /* Date+Compare.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Date+Compare.swift"; path = "Sources/SwiftDate/Date+Compare.swift"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		98CCF7412D8977600DD1F704652F1D13 /* SwiftIcons-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftIcons-umbrella.h"; sourceTree = "<group>"; };
+		9B0FEABCBE355D40C35DE69E25132846 /* Pods-RenfroWeather.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-RenfroWeather.modulemap"; sourceTree = "<group>"; };
+		9CB0E06D815D2818C94CE0C91CE3C634 /* Localization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Localization.swift; path = Sources/SwiftDate/Localization.swift; sourceTree = "<group>"; };
+		A1C3FD51503BE73EA00CE7E8838DDE21 /* SwiftDate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftDate.framework; path = SwiftDate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A272F96BBDEB885199BAF584477B7373 /* Date+Formatter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Date+Formatter.swift"; path = "Sources/SwiftDate/Date+Formatter.swift"; sourceTree = "<group>"; };
+		A5D8FB696EF441658CD22005F597BFA7 /* Pods-RenfroWeather.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RenfroWeather.release.xcconfig"; sourceTree = "<group>"; };
+		A8FF81787530FB2DA33A3341B5C31091 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B2182D75D84CB5CEFA2CCC6422C6C711 /* SwiftDate-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftDate-umbrella.h"; sourceTree = "<group>"; };
+		B35BEB4499FD81A305B927312B3535E4 /* ColloquialDateFormatter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ColloquialDateFormatter.swift; path = Sources/SwiftDate/ColloquialDateFormatter.swift; sourceTree = "<group>"; };
+		B4D5ADB345FBF2768249B4FE6753EC47 /* SwiftIcons-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftIcons-dummy.m"; sourceTree = "<group>"; };
+		B7A46E22FBFC45E4E1BA74021D5EFA41 /* Pods-RenfroWeather.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RenfroWeather.debug.xcconfig"; sourceTree = "<group>"; };
+		BA2AD4A051862B2DE3C3D0D164E4AFBD /* Pods-RenfroWeather-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RenfroWeather-acknowledgements.plist"; sourceTree = "<group>"; };
+		C15B5C3DF96EF7FDC805E567F02D8E91 /* Dripicons.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = Dripicons.ttf; path = Source/Dripicons.ttf; sourceTree = "<group>"; };
+		C1FFC213AB330F14E1CE6A7AB842E991 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C4F0F659EAA9B4AF36A30AADC920F1BB /* Ionicons.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = Ionicons.ttf; path = Source/Ionicons.ttf; sourceTree = "<group>"; };
+		C5924F0621D62944E73401EA97AAAD20 /* TimeInterval+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "TimeInterval+Extensions.swift"; path = "Sources/SwiftDate/TimeInterval+Extensions.swift"; sourceTree = "<group>"; };
+		C726F4CFBF4B57B77673CEA62F385892 /* Pods-RenfroWeather-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RenfroWeather-frameworks.sh"; sourceTree = "<group>"; };
+		CA8ED407616046F8A6B53BB3D33F11E9 /* MaterialIcons.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = MaterialIcons.ttf; path = Source/MaterialIcons.ttf; sourceTree = "<group>"; };
+		D44FD282140719E01ACC5F80AEE169C0 /* CalendarName.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CalendarName.swift; path = Sources/SwiftDate/CalendarName.swift; sourceTree = "<group>"; };
+		D6771E58B354ADC171908AC7FD2BC47C /* DateComponents+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DateComponents+Extension.swift"; path = "Sources/SwiftDate/DateComponents+Extension.swift"; sourceTree = "<group>"; };
+		D9BBD8702A4598F75A6F4EFB67BD2E60 /* Stateface.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = Stateface.ttf; path = Source/Stateface.ttf; sourceTree = "<group>"; };
+		DE7A8E4A77C82C5DFB44246B7A5F68B2 /* SwiftDate-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftDate-prefix.pch"; sourceTree = "<group>"; };
+		DED2820D84758F070877D699CE69BEAB /* Pods-RenfroWeather-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RenfroWeather-resources.sh"; sourceTree = "<group>"; };
+		E1E84EC7697E5CEDC0EB27054BEF04FE /* DOTNETDateTimeFormatter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DOTNETDateTimeFormatter.swift; path = Sources/SwiftDate/DOTNETDateTimeFormatter.swift; sourceTree = "<group>"; };
+		E4D3A27AFEE6EF22FF74BAE321FB0608 /* WeatherIcons.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = WeatherIcons.ttf; path = Source/WeatherIcons.ttf; sourceTree = "<group>"; };
+		E7B4DA5A4D0E212477E8D7551AC51BE5 /* Region.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Region.swift; path = Sources/SwiftDate/Region.swift; sourceTree = "<group>"; };
+		E85954BE05A8519F0009F0EC442B6019 /* DateInRegion+Components.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DateInRegion+Components.swift"; path = "Sources/SwiftDate/DateInRegion+Components.swift"; sourceTree = "<group>"; };
+		EFE3F34B5BF499B5906D27E8E3C09386 /* SwiftIcons-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftIcons-prefix.pch"; sourceTree = "<group>"; };
+		F9EDECAD68022FB8AF218061B993B151 /* SwiftIcons.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftIcons.modulemap; sourceTree = "<group>"; };
+		FA184609C2417F7DF0A925CDCD9ECB62 /* DateInRegion+Compare.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DateInRegion+Compare.swift"; path = "Sources/SwiftDate/DateInRegion+Compare.swift"; sourceTree = "<group>"; };
+		FB38EA2A230837E70189A8ABBE8A977E /* Pods_RenfroWeather.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_RenfroWeather.framework; path = "Pods-RenfroWeather.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCDF06A97715AB2D1C0A045351569C7C /* Pods-RenfroWeather-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RenfroWeather-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		195E7CA30883EE2694EF628ABDC7CC60 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D96B9EB35BD14F8EB810EE35D8598873 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B60E517F39D20E71663F0279FF586F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6C86469DB334A9FD502060A6F9C0099 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3B4D5AFD7C5333E60E2FB3061B228E8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8CDA50018A80FF53E12336C5688EF3C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFC678CDE831DD5BA2A0EB829293A1C6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3069D2E3E39462AD98ABD4DD03CD81CC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6E5144700AEED69C62073731D7F7212B /* SwiftDate.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		3B19227D20C904A040CBE456799051A1 /* SwiftDate */ = {
+			isa = PBXGroup;
+			children = (
+				D44FD282140719E01ACC5F80AEE169C0 /* CalendarName.swift */,
+				B35BEB4499FD81A305B927312B3535E4 /* ColloquialDateFormatter.swift */,
+				824F91EBA200AB24D34A400D7A85E0BF /* Commons.swift */,
+				90F00F42067CAE4D89995CFDB90A4E34 /* Date+Compare.swift */,
+				62D262C0A62E210B3C4E9729FD34CD92 /* Date+Components.swift */,
+				A272F96BBDEB885199BAF584477B7373 /* Date+Formatter.swift */,
+				45A6776D8A1640B797ECBEB3C24237EF /* Date+Math.swift */,
+				D6771E58B354ADC171908AC7FD2BC47C /* DateComponents+Extension.swift */,
+				5BAB511F7338F624A021EF943A5D5CE8 /* DateInRegion.swift */,
+				FA184609C2417F7DF0A925CDCD9ECB62 /* DateInRegion+Compare.swift */,
+				E85954BE05A8519F0009F0EC442B6019 /* DateInRegion+Components.swift */,
+				620FD83EBB6264FC562FD6FA1D6C235D /* DateInRegion+Formatter.swift */,
+				5710AECF156905666CBE0F87AB4180A0 /* DateInRegion+Math.swift */,
+				0C62B75D9DC05AC2C829E505C728EC55 /* DateInRegionFormatter.swift */,
+				754BA5472764F11DA288CE718D4A3CF5 /* DateTimeInterval.swift */,
+				E1E84EC7697E5CEDC0EB27054BEF04FE /* DOTNETDateTimeFormatter.swift */,
+				7F869A4542E1F76488A9C22B0DE6C737 /* Extensions.swift */,
+				40138AC27ECACA3AA313AF0CDA49AAE5 /* ISO8601DateTimeFormatter.swift */,
+				3CB5104A263E616641A81BDDCF0C198F /* ISO8601Parser.swift */,
+				227DD3804D6AFDEDB628EE2A48B672AE /* LocaleName.swift */,
+				9CB0E06D815D2818C94CE0C91CE3C634 /* Localization.swift */,
+				E7B4DA5A4D0E212477E8D7551AC51BE5 /* Region.swift */,
+				C5924F0621D62944E73401EA97AAAD20 /* TimeInterval+Extensions.swift */,
+				7916F6A0F1F71E1407EA517A5648419D /* TimeZoneName.swift */,
+				3069D2E3E39462AD98ABD4DD03CD81CC /* Resources */,
+				B73E611AF5A574F305C7DB5991AC9307 /* Support Files */,
+			);
+			name = SwiftDate;
+			path = SwiftDate;
+			sourceTree = "<group>";
+		};
+		3E52DCF4A8700A4C08B94F99E500F9C3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3B19227D20C904A040CBE456799051A1 /* SwiftDate */,
+				CBD81E8FF83A5050A6D7F46C8E5495EE /* SwiftIcons */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				3E52DCF4A8700A4C08B94F99E500F9C3 /* Pods */,
+				B80837A5D699F6D01ABC2C45618BF424 /* Products */,
+				83112971253D77B526D898AB8B1398EA /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		83112971253D77B526D898AB8B1398EA /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E32245C3EE35B062E1797287001518AB /* Pods-RenfroWeather */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		B73E611AF5A574F305C7DB5991AC9307 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C1FFC213AB330F14E1CE6A7AB842E991 /* Info.plist */,
+				029B599FB587A537AB47A3BE4454683E /* SwiftDate.modulemap */,
+				0EB420A117C71FB1B9F733F7316631DA /* SwiftDate.xcconfig */,
+				202BAD80A5CE552DDC65DA3A81DC77AE /* SwiftDate-dummy.m */,
+				DE7A8E4A77C82C5DFB44246B7A5F68B2 /* SwiftDate-prefix.pch */,
+				B2182D75D84CB5CEFA2CCC6422C6C711 /* SwiftDate-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftDate";
+			sourceTree = "<group>";
+		};
+		B80837A5D699F6D01ABC2C45618BF424 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FB38EA2A230837E70189A8ABBE8A977E /* Pods_RenfroWeather.framework */,
+				A1C3FD51503BE73EA00CE7E8838DDE21 /* SwiftDate.framework */,
+				5E5EA48EF671B5EE828FD4B0C40AF2A7 /* SwiftIcons.bundle */,
+				5A66B2046F328AF26A3B38D6F942843F /* SwiftIcons.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BDA8E1D023516F5BA8FCCF0B639319BE /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A8FF81787530FB2DA33A3341B5C31091 /* Info.plist */,
+				00A3735B709B12161FCC31E2B58FAB01 /* ResourceBundle-SwiftIcons-Info.plist */,
+				F9EDECAD68022FB8AF218061B993B151 /* SwiftIcons.modulemap */,
+				517DF6C4C3AE0BD5724DEF54084651AE /* SwiftIcons.xcconfig */,
+				B4D5ADB345FBF2768249B4FE6753EC47 /* SwiftIcons-dummy.m */,
+				EFE3F34B5BF499B5906D27E8E3C09386 /* SwiftIcons-prefix.pch */,
+				98CCF7412D8977600DD1F704652F1D13 /* SwiftIcons-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftIcons";
+			sourceTree = "<group>";
+		};
+		CBD81E8FF83A5050A6D7F46C8E5495EE /* SwiftIcons */ = {
+			isa = PBXGroup;
+			children = (
+				87DA39E4AA4BB3BD6D654303DB2DE202 /* SwiftIcons.swift */,
+				EC64523F3133C5C1F688D6C09EAD82C5 /* Resources */,
+				BDA8E1D023516F5BA8FCCF0B639319BE /* Support Files */,
+			);
+			name = SwiftIcons;
+			path = SwiftIcons;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		E32245C3EE35B062E1797287001518AB /* Pods-RenfroWeather */ = {
+			isa = PBXGroup;
+			children = (
+				68CDFFB2B270900EE7F3DCCEFBDE95B6 /* Info.plist */,
+				9B0FEABCBE355D40C35DE69E25132846 /* Pods-RenfroWeather.modulemap */,
+				23739A4CC6A318AF644FF84E14788559 /* Pods-RenfroWeather-acknowledgements.markdown */,
+				BA2AD4A051862B2DE3C3D0D164E4AFBD /* Pods-RenfroWeather-acknowledgements.plist */,
+				8A8B9C5147AB74FB122BC5879918B7EF /* Pods-RenfroWeather-dummy.m */,
+				C726F4CFBF4B57B77673CEA62F385892 /* Pods-RenfroWeather-frameworks.sh */,
+				DED2820D84758F070877D699CE69BEAB /* Pods-RenfroWeather-resources.sh */,
+				FCDF06A97715AB2D1C0A045351569C7C /* Pods-RenfroWeather-umbrella.h */,
+				B7A46E22FBFC45E4E1BA74021D5EFA41 /* Pods-RenfroWeather.debug.xcconfig */,
+				A5D8FB696EF441658CD22005F597BFA7 /* Pods-RenfroWeather.release.xcconfig */,
+			);
+			name = "Pods-RenfroWeather";
+			path = "Target Support Files/Pods-RenfroWeather";
+			sourceTree = "<group>";
+		};
+		EC64523F3133C5C1F688D6C09EAD82C5 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C15B5C3DF96EF7FDC805E567F02D8E91 /* Dripicons.ttf */,
+				1AFB2E5DDEC3700349FFE175B3E92AD4 /* Emoji.ttf */,
+				5946B30E6FECA500D0D28470AE0EC268 /* FontAwesome.ttf */,
+				41BDDA8E5FA215F72697F9341C9A6326 /* Icofont.ttf */,
+				C4F0F659EAA9B4AF36A30AADC920F1BB /* Ionicons.ttf */,
+				10C2B930FAE5840B636E83EC1FA72EDF /* Linearicons.ttf */,
+				40E405A5900E850B579F97A3483A9C28 /* MapIcons.ttf */,
+				CA8ED407616046F8A6B53BB3D33F11E9 /* MaterialIcons.ttf */,
+				0EBE3631ABEDBB9DCE6082E4D7E530B9 /* OpenIconic.ttf */,
+				D9BBD8702A4598F75A6F4EFB67BD2E60 /* Stateface.ttf */,
+				E4D3A27AFEE6EF22FF74BAE321FB0608 /* WeatherIcons.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		576A66982B96C33A4A62EEE3BB2E675F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35268A4C035B1F665C817B1B11CBA506 /* Pods-RenfroWeather-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7320DF67A3B420E199A4FDAA96954C0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F70D32A80CA898F1C3F0A39767DEED56 /* SwiftIcons-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8816FB7AEA5A807DAF683371545ABA8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F24F814E11483A681D282CBC0A908D2 /* SwiftDate-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		075EBDE21E893F22BA44A5124EC0B312 /* Pods-RenfroWeather */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38527F84DCC58DF0EBDAB863E63F6CC9 /* Build configuration list for PBXNativeTarget "Pods-RenfroWeather" */;
+			buildPhases = (
+				3F7F3450F175A58675E2E47D657CA64F /* Sources */,
+				E8CDA50018A80FF53E12336C5688EF3C /* Frameworks */,
+				576A66982B96C33A4A62EEE3BB2E675F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7B28E658B2274A7127AFD00B974A1A93 /* PBXTargetDependency */,
+				C478084CC85ADD604D7FC3237D6AEB4D /* PBXTargetDependency */,
+			);
+			name = "Pods-RenfroWeather";
+			productName = "Pods-RenfroWeather";
+			productReference = FB38EA2A230837E70189A8ABBE8A977E /* Pods_RenfroWeather.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		2A84BBC36D19FB309D263F8A3EBA7C2A /* SwiftIcons */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EEFA13674DFA369EEC2AA58AFA93CE85 /* Build configuration list for PBXNativeTarget "SwiftIcons" */;
+			buildPhases = (
+				A030E48B52337EC58B9A92B3597EC968 /* Sources */,
+				C6C86469DB334A9FD502060A6F9C0099 /* Frameworks */,
+				8668ADD48BE845A04E1DDBC17F3DAA74 /* Resources */,
+				A7320DF67A3B420E199A4FDAA96954C0 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3C849CF60BC144698E23EA00BC255E37 /* PBXTargetDependency */,
+			);
+			name = SwiftIcons;
+			productName = SwiftIcons;
+			productReference = 5A66B2046F328AF26A3B38D6F942843F /* SwiftIcons.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A35329194C37AA862F852020D6A2E767 /* SwiftDate */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9240BB43C486ACDD8851C812BBE70BA5 /* Build configuration list for PBXNativeTarget "SwiftDate" */;
+			buildPhases = (
+				FAE93EACC6A04B4AB852294ACD9F0045 /* Sources */,
+				195E7CA30883EE2694EF628ABDC7CC60 /* Frameworks */,
+				58B0CFFB6D5D98F8B8341D9C7B77C382 /* Resources */,
+				E8816FB7AEA5A807DAF683371545ABA8 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftDate;
+			productName = SwiftDate;
+			productReference = A1C3FD51503BE73EA00CE7E8838DDE21 /* SwiftDate.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E48E6C2A283C503D4F624EA8CC79A942 /* SwiftIcons-SwiftIcons */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 284ADAA69368EFDDEDC474BA837AC9AC /* Build configuration list for PBXNativeTarget "SwiftIcons-SwiftIcons" */;
+			buildPhases = (
+				E46CA7648EDC018C055AC0BD332BB011 /* Sources */,
+				4B60E517F39D20E71663F0279FF586F3 /* Frameworks */,
+				C3F09CD4A2E6305214808F756DD1B90C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SwiftIcons-SwiftIcons";
+			productName = "SwiftIcons-SwiftIcons";
+			productReference = 5E5EA48EF671B5EE828FD4B0C40AF2A7 /* SwiftIcons.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = B80837A5D699F6D01ABC2C45618BF424 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				075EBDE21E893F22BA44A5124EC0B312 /* Pods-RenfroWeather */,
+				A35329194C37AA862F852020D6A2E767 /* SwiftDate */,
+				2A84BBC36D19FB309D263F8A3EBA7C2A /* SwiftIcons */,
+				E48E6C2A283C503D4F624EA8CC79A942 /* SwiftIcons-SwiftIcons */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		58B0CFFB6D5D98F8B8341D9C7B77C382 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DD7A5F65641A9D29C65DB62EC5031BE /* SwiftDate.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8668ADD48BE845A04E1DDBC17F3DAA74 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CF224216F7D1AA2F1DC0983FC880DBB /* SwiftIcons.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3F09CD4A2E6305214808F756DD1B90C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3D726748AD2AA6496A8A780A4E8FDBA /* Dripicons.ttf in Resources */,
+				F4887A100D1DEE3B4019BED0D4E3390D /* Emoji.ttf in Resources */,
+				60B62D6B49946625A9AF318BEE63AFF1 /* FontAwesome.ttf in Resources */,
+				B4A7387B312C6B714B2B2F928D6DE495 /* Icofont.ttf in Resources */,
+				1CE61CD3F2E3D947871787863E00C9D5 /* Ionicons.ttf in Resources */,
+				DEA71DD00C331BC9B0108DD89F4FB8F9 /* Linearicons.ttf in Resources */,
+				ED0A0559565F7BC90AF667D5C3A1D4DE /* MapIcons.ttf in Resources */,
+				6139E4537EF6475E6764A8850B5E3FAF /* MaterialIcons.ttf in Resources */,
+				900890D8ADD390495C8FCD1FCD7C2B9D /* OpenIconic.ttf in Resources */,
+				2D1ED593C60202B543AD4A3AD1FCD56C /* Stateface.ttf in Resources */,
+				2E06A54AF3FF3FD211D627E74CBE4300 /* WeatherIcons.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3F7F3450F175A58675E2E47D657CA64F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7606864A9AD46647E383812FA5825E27 /* Pods-RenfroWeather-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A030E48B52337EC58B9A92B3597EC968 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				955511750FD9EDCE720605265BBC77A1 /* SwiftIcons-dummy.m in Sources */,
+				474B134BB05BD9B2AC4158E6FDD15E47 /* SwiftIcons.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E46CA7648EDC018C055AC0BD332BB011 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAE93EACC6A04B4AB852294ACD9F0045 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C65C80202C32CE3C03A4E9E9E00AF2B7 /* CalendarName.swift in Sources */,
+				D5154FEF991B7F01BB0A6C535D8F9880 /* ColloquialDateFormatter.swift in Sources */,
+				CEA60206DA6529AA2FD3B7F74F47319F /* Commons.swift in Sources */,
+				0E0BC979AD53E9668621BC8CE203AFFC /* Date+Compare.swift in Sources */,
+				D350300670E08F9814B2F1BDE0D7191D /* Date+Components.swift in Sources */,
+				6C27C097D2908F867A983F6774408DDF /* Date+Formatter.swift in Sources */,
+				765347E34205ACFCF6C831EEE352D243 /* Date+Math.swift in Sources */,
+				49D27CBD543ECCCCF97BDA625A79783C /* DateComponents+Extension.swift in Sources */,
+				4C7146163F5076028417A3CBD1FD9D4F /* DateInRegion+Compare.swift in Sources */,
+				0DD60E297AEFDCCE231D09BAD14AC7DC /* DateInRegion+Components.swift in Sources */,
+				BB008742F4D4D61C8BB43D6BFCB446E1 /* DateInRegion+Formatter.swift in Sources */,
+				45EFE8FB9A2A69D0D7C161016DDADE06 /* DateInRegion+Math.swift in Sources */,
+				14A96EBC3380CC7F3F68CCD5D652AB95 /* DateInRegion.swift in Sources */,
+				1F015D6E4A2D0A8E1735BFF31E475DE8 /* DateInRegionFormatter.swift in Sources */,
+				0618C92FD493197A6EC787751BA69C06 /* DateTimeInterval.swift in Sources */,
+				2FE7AF5FC84AD10893C602BDF0751DD5 /* DOTNETDateTimeFormatter.swift in Sources */,
+				0C8E80718BDB61C77C6562B4198A9D13 /* Extensions.swift in Sources */,
+				FB9B731B2BCA8008554C9E322D2D05E7 /* ISO8601DateTimeFormatter.swift in Sources */,
+				BCDCEF8D8374EC18939738A318A49E95 /* ISO8601Parser.swift in Sources */,
+				DD73459DD843D5A6DE8CCE9CE0134AB4 /* LocaleName.swift in Sources */,
+				55DD15BCCDF1E60D0FA024409C837667 /* Localization.swift in Sources */,
+				B26DF4B3440D39DE0492E60493C9BB73 /* Region.swift in Sources */,
+				EF263B283E2D91A4D4A6899EFF6665C4 /* SwiftDate-dummy.m in Sources */,
+				3FA794B7E7E4B76A975D6A2B53A027C6 /* TimeInterval+Extensions.swift in Sources */,
+				28895D4C7FAF37819A917B227CC97BB5 /* TimeZoneName.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3C849CF60BC144698E23EA00BC255E37 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "SwiftIcons-SwiftIcons";
+			target = E48E6C2A283C503D4F624EA8CC79A942 /* SwiftIcons-SwiftIcons */;
+			targetProxy = C6A7C7C1E7B57ECF3DD3C3040C2EC73E /* PBXContainerItemProxy */;
+		};
+		7B28E658B2274A7127AFD00B974A1A93 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftDate;
+			target = A35329194C37AA862F852020D6A2E767 /* SwiftDate */;
+			targetProxy = CD0D43F3D06A42EB177EC67BD2614A11 /* PBXContainerItemProxy */;
+		};
+		C478084CC85ADD604D7FC3237D6AEB4D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftIcons;
+			target = 2A84BBC36D19FB309D263F8A3EBA7C2A /* SwiftIcons */;
+			targetProxy = 7080C5BEFEA98C67B9F985A7F14DABF5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		323A24856F1A4871A780301AF5C02A2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		6874AFC46E83D4E093D4EE5B1E412CBF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5D8FB696EF441658CD22005F597BFA7 /* Pods-RenfroWeather.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RenfroWeather/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RenfroWeather/Pods-RenfroWeather.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_RenfroWeather;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		71AFE9E2D09A3A791290F3517A0547CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0EB420A117C71FB1B9F733F7316631DA /* SwiftDate.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftDate/SwiftDate-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftDate/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftDate/SwiftDate.modulemap";
+				PRODUCT_NAME = SwiftDate;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		763FA4D0EF7F9B15CD46FFA851351862 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 517DF6C4C3AE0BD5724DEF54084651AE /* SwiftIcons.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/SwiftIcons";
+				INFOPLIST_FILE = "Target Support Files/SwiftIcons/ResourceBundle-SwiftIcons-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = SwiftIcons;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		8C8601C58CEF89D353D755F3C6E7E05B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0EB420A117C71FB1B9F733F7316631DA /* SwiftDate.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftDate/SwiftDate-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftDate/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftDate/SwiftDate.modulemap";
+				PRODUCT_NAME = SwiftDate;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B2695211CFA923214B08EDA5193926F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 517DF6C4C3AE0BD5724DEF54084651AE /* SwiftIcons.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/SwiftIcons";
+				INFOPLIST_FILE = "Target Support Files/SwiftIcons/ResourceBundle-SwiftIcons-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = SwiftIcons;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		CA33F186435244FD0FD5B7325332656C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		DAD01016EF705883EE8C2CD537D05943 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 517DF6C4C3AE0BD5724DEF54084651AE /* SwiftIcons.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftIcons/SwiftIcons-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftIcons/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftIcons/SwiftIcons.modulemap";
+				PRODUCT_NAME = SwiftIcons;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DD6629F83E76FE6270E42B415375226D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 517DF6C4C3AE0BD5724DEF54084651AE /* SwiftIcons.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftIcons/SwiftIcons-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftIcons/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftIcons/SwiftIcons.modulemap";
+				PRODUCT_NAME = SwiftIcons;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E8171705EE694A575C54DCD59DD31FF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B7A46E22FBFC45E4E1BA74021D5EFA41 /* Pods-RenfroWeather.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RenfroWeather/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RenfroWeather/Pods-RenfroWeather.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_RenfroWeather;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		284ADAA69368EFDDEDC474BA837AC9AC /* Build configuration list for PBXNativeTarget "SwiftIcons-SwiftIcons" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				763FA4D0EF7F9B15CD46FFA851351862 /* Debug */,
+				B2695211CFA923214B08EDA5193926F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				323A24856F1A4871A780301AF5C02A2A /* Debug */,
+				CA33F186435244FD0FD5B7325332656C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		38527F84DCC58DF0EBDAB863E63F6CC9 /* Build configuration list for PBXNativeTarget "Pods-RenfroWeather" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E8171705EE694A575C54DCD59DD31FF1 /* Debug */,
+				6874AFC46E83D4E093D4EE5B1E412CBF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9240BB43C486ACDD8851C812BBE70BA5 /* Build configuration list for PBXNativeTarget "SwiftDate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C8601C58CEF89D353D755F3C6E7E05B /* Debug */,
+				71AFE9E2D09A3A791290F3517A0547CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EEFA13674DFA369EEC2AA58AFA93CE85 /* Build configuration list for PBXNativeTarget "SwiftIcons" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAD01016EF705883EE8C2CD537D05943 /* Debug */,
+				DD6629F83E76FE6270E42B415375226D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

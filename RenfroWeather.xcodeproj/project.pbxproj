@@ -1,0 +1,448 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8F4497EC2043B78200F615A2 /* SwiftIcons.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F4497ED2043B78200F615A2 /* SwiftIcons.framework */; };
+		8F45475E204C950A00DF7D73 /* SwiftDate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F45475F204C950A00DF7D73 /* SwiftDate.framework */; };
+		8F471B54204A6F1400D3E69B /* AppUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F471B53204A6F1400D3E69B /* AppUtilities.swift */; };
+		8F8E9F3D203A7AA500CBCD0F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F8E9F3C203A7AA500CBCD0F /* AppDelegate.swift */; };
+		8F8E9F3F203A7AA500CBCD0F /* SurfaceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F8E9F3E203A7AA500CBCD0F /* SurfaceViewController.swift */; };
+		8F8E9F42203A7AA500CBCD0F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F8E9F40203A7AA500CBCD0F /* Main.storyboard */; };
+		8F8E9F44203A7AA500CBCD0F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F8E9F43203A7AA500CBCD0F /* Assets.xcassets */; };
+		8F8E9F47203A7AA500CBCD0F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F8E9F45203A7AA500CBCD0F /* LaunchScreen.storyboard */; };
+		8FC3422B2051724200615311 /* WeatherDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FC3422A2051724200615311 /* WeatherDataModel.swift */; };
+		8FE41B3B204A79FE00567284 /* AstronomyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FE41B3A204A79FE00567284 /* AstronomyViewController.swift */; };
+		8FEDE65A205A1B9E00C4FA7B /* App.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8FEDE659205A1B9E00C4FA7B /* App.plist */; };
+		8FF2084420499FA500FB6EE6 /* WebcamViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FF2084320499FA500FB6EE6 /* WebcamViewController.swift */; };
+		8FF208462049A82000FB6EE6 /* RadarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FF208452049A82000FB6EE6 /* RadarViewController.swift */; };
+		8FF208482049A8D300FB6EE6 /* SurfaceMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FF208472049A8D300FB6EE6 /* SurfaceMapViewController.swift */; };
+		B500CE7DFD26A38720B03F66 /* Pods_RenfroWeather.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F9D4F35ED8C58EA593457B5 /* Pods_RenfroWeather.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6F9D4F35ED8C58EA593457B5 /* Pods_RenfroWeather.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RenfroWeather.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F4497ED2043B78200F615A2 /* SwiftIcons.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SwiftIcons.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F45475F204C950A00DF7D73 /* SwiftDate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SwiftDate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F471B53204A6F1400D3E69B /* AppUtilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppUtilities.swift; sourceTree = "<group>"; };
+		8F8E9F39203A7AA500CBCD0F /* RenfroWeather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RenfroWeather.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F8E9F3C203A7AA500CBCD0F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8F8E9F3E203A7AA500CBCD0F /* SurfaceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SurfaceViewController.swift; sourceTree = "<group>"; };
+		8F8E9F41203A7AA500CBCD0F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8F8E9F43203A7AA500CBCD0F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8F8E9F46203A7AA500CBCD0F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8F8E9F48203A7AA500CBCD0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8FC3422A2051724200615311 /* WeatherDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherDataModel.swift; sourceTree = "<group>"; };
+		8FE41B3A204A79FE00567284 /* AstronomyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstronomyViewController.swift; sourceTree = "<group>"; };
+		8FEDE659205A1B9E00C4FA7B /* App.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = App.plist; sourceTree = "<group>"; };
+		8FF2084320499FA500FB6EE6 /* WebcamViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebcamViewController.swift; sourceTree = "<group>"; };
+		8FF208452049A82000FB6EE6 /* RadarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadarViewController.swift; sourceTree = "<group>"; };
+		8FF208472049A8D300FB6EE6 /* SurfaceMapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SurfaceMapViewController.swift; sourceTree = "<group>"; };
+		BEF6F69B60A5FE99FEF837AE /* Pods-RenfroWeather.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RenfroWeather.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RenfroWeather/Pods-RenfroWeather.debug.xcconfig"; sourceTree = "<group>"; };
+		E1E75F792A2D92FA03827AB0 /* Pods-RenfroWeather.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RenfroWeather.release.xcconfig"; path = "Pods/Target Support Files/Pods-RenfroWeather/Pods-RenfroWeather.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8F8E9F36203A7AA500CBCD0F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F45475E204C950A00DF7D73 /* SwiftDate.framework in Frameworks */,
+				8F4497EC2043B78200F615A2 /* SwiftIcons.framework in Frameworks */,
+				B500CE7DFD26A38720B03F66 /* Pods_RenfroWeather.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		71D844A2BA07064C7BE524E0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8F45475F204C950A00DF7D73 /* SwiftDate.framework */,
+				8F4497ED2043B78200F615A2 /* SwiftIcons.framework */,
+				6F9D4F35ED8C58EA593457B5 /* Pods_RenfroWeather.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8F8E9F30203A7AA500CBCD0F = {
+			isa = PBXGroup;
+			children = (
+				8F8E9F3B203A7AA500CBCD0F /* RenfroWeather */,
+				8F8E9F3A203A7AA500CBCD0F /* Products */,
+				E3AC287A2C981ACFDA3E7B19 /* Pods */,
+				71D844A2BA07064C7BE524E0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8F8E9F3A203A7AA500CBCD0F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8F8E9F39203A7AA500CBCD0F /* RenfroWeather.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8F8E9F3B203A7AA500CBCD0F /* RenfroWeather */ = {
+			isa = PBXGroup;
+			children = (
+				8F8E9F3C203A7AA500CBCD0F /* AppDelegate.swift */,
+				8F471B53204A6F1400D3E69B /* AppUtilities.swift */,
+				8F8E9F3E203A7AA500CBCD0F /* SurfaceViewController.swift */,
+				8FEDE659205A1B9E00C4FA7B /* App.plist */,
+				8FE41B3A204A79FE00567284 /* AstronomyViewController.swift */,
+				8FF2084320499FA500FB6EE6 /* WebcamViewController.swift */,
+				8F8E9F40203A7AA500CBCD0F /* Main.storyboard */,
+				8FF208472049A8D300FB6EE6 /* SurfaceMapViewController.swift */,
+				8FF208452049A82000FB6EE6 /* RadarViewController.swift */,
+				8F8E9F43203A7AA500CBCD0F /* Assets.xcassets */,
+				8F8E9F45203A7AA500CBCD0F /* LaunchScreen.storyboard */,
+				8F8E9F48203A7AA500CBCD0F /* Info.plist */,
+				8FC3422A2051724200615311 /* WeatherDataModel.swift */,
+			);
+			path = RenfroWeather;
+			sourceTree = "<group>";
+		};
+		E3AC287A2C981ACFDA3E7B19 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BEF6F69B60A5FE99FEF837AE /* Pods-RenfroWeather.debug.xcconfig */,
+				E1E75F792A2D92FA03827AB0 /* Pods-RenfroWeather.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8F8E9F38203A7AA500CBCD0F /* RenfroWeather */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F8E9F4B203A7AA500CBCD0F /* Build configuration list for PBXNativeTarget "RenfroWeather" */;
+			buildPhases = (
+				33A407CC8E7061A84293EBB5 /* [CP] Check Pods Manifest.lock */,
+				8F8E9F35203A7AA500CBCD0F /* Sources */,
+				8F8E9F36203A7AA500CBCD0F /* Frameworks */,
+				8F8E9F37203A7AA500CBCD0F /* Resources */,
+				E20D36471DA60B7B76DF185C /* [CP] Embed Pods Frameworks */,
+				DFD46E5ED7658CF6FF94D12A /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RenfroWeather;
+			productName = RenfroWeather;
+			productReference = 8F8E9F39203A7AA500CBCD0F /* RenfroWeather.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8F8E9F31203A7AA500CBCD0F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Roger Renfro";
+				TargetAttributes = {
+					8F8E9F38203A7AA500CBCD0F = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 8F8E9F34203A7AA500CBCD0F /* Build configuration list for PBXProject "RenfroWeather" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8F8E9F30203A7AA500CBCD0F;
+			productRefGroup = 8F8E9F3A203A7AA500CBCD0F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8F8E9F38203A7AA500CBCD0F /* RenfroWeather */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8F8E9F37203A7AA500CBCD0F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FEDE65A205A1B9E00C4FA7B /* App.plist in Resources */,
+				8F8E9F47203A7AA500CBCD0F /* LaunchScreen.storyboard in Resources */,
+				8F8E9F44203A7AA500CBCD0F /* Assets.xcassets in Resources */,
+				8F8E9F42203A7AA500CBCD0F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		33A407CC8E7061A84293EBB5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RenfroWeather-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DFD46E5ED7658CF6FF94D12A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RenfroWeather/Pods-RenfroWeather-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E20D36471DA60B7B76DF185C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-RenfroWeather/Pods-RenfroWeather-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SwiftDate/SwiftDate.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftIcons/SwiftIcons.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftDate.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftIcons.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RenfroWeather/Pods-RenfroWeather-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8F8E9F35203A7AA500CBCD0F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F8E9F3F203A7AA500CBCD0F /* SurfaceViewController.swift in Sources */,
+				8FF208482049A8D300FB6EE6 /* SurfaceMapViewController.swift in Sources */,
+				8FF208462049A82000FB6EE6 /* RadarViewController.swift in Sources */,
+				8F8E9F3D203A7AA500CBCD0F /* AppDelegate.swift in Sources */,
+				8FC3422B2051724200615311 /* WeatherDataModel.swift in Sources */,
+				8F471B54204A6F1400D3E69B /* AppUtilities.swift in Sources */,
+				8FE41B3B204A79FE00567284 /* AstronomyViewController.swift in Sources */,
+				8FF2084420499FA500FB6EE6 /* WebcamViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8F8E9F40203A7AA500CBCD0F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8F8E9F41203A7AA500CBCD0F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8F8E9F45203A7AA500CBCD0F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8F8E9F46203A7AA500CBCD0F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8F8E9F49203A7AA500CBCD0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8F8E9F4A203A7AA500CBCD0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8F8E9F4C203A7AA500CBCD0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BEF6F69B60A5FE99FEF837AE /* Pods-RenfroWeather.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WWWS856HF3;
+				INFOPLIST_FILE = RenfroWeather/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Roger.RenfroWeather;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		8F8E9F4D203A7AA500CBCD0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E1E75F792A2D92FA03827AB0 /* Pods-RenfroWeather.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WWWS856HF3;
+				INFOPLIST_FILE = RenfroWeather/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Roger.RenfroWeather;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8F8E9F34203A7AA500CBCD0F /* Build configuration list for PBXProject "RenfroWeather" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F8E9F49203A7AA500CBCD0F /* Debug */,
+				8F8E9F4A203A7AA500CBCD0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F8E9F4B203A7AA500CBCD0F /* Build configuration list for PBXNativeTarget "RenfroWeather" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F8E9F4C203A7AA500CBCD0F /* Debug */,
+				8F8E9F4D203A7AA500CBCD0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8F8E9F31203A7AA500CBCD0F /* Project object */;
+}

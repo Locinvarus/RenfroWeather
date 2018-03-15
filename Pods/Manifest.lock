@@ -1,0 +1,15 @@
+PODS:
+  - SwiftDate (4.5.1)
+  - SwiftIcons (2.0.1)
+
+DEPENDENCIES:
+  - SwiftDate (~> 4.0)
+  - SwiftIcons (~> 2.0.1)
+
+SPEC CHECKSUMS:
+  SwiftDate: 7b56d42a221f582047287deb256b23fc5ed49a60
+  SwiftIcons: e475a56ae2c2da40672dbf16061ca5dd5cee7dbb
+
+PODFILE CHECKSUM: 9ebb91d5908ffc76ad617326d77e65e9b26c68bb
+
+COCOAPODS: 1.4.0
