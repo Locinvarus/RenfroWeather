@@ -30,8 +30,8 @@ class AppHelper: NSObject {
         vc.present(alertView, animated: true, completion: nil)
     }
     
-    // function to read app.plist fie
-    func readAppPlist() -> String {
+    // function to read app.plist file
+    func readAppPlist(key : String) -> String {
         var resourceFileDictionary: NSDictionary?
         var returnValue: String = ""
         
@@ -42,15 +42,18 @@ class AppHelper: NSObject {
         
         if let resourceFileDictionaryContent = resourceFileDictionary {
             
-            // Get something from our Info.plist like APU_KEY
-            returnValue = resourceFileDictionaryContent.object(forKey: "API_KEY")! as! String
+            // Get value from App.plist that matches the key parameter
+            if resourceFileDictionaryContent.object(forKey: "API_KEY")! as! String == key {
+                returnValue = resourceFileDictionaryContent.object(forKey: key)! as! String
+            }
+            
         }
         return returnValue
     }
     
     // set the Weather Underground API Key
     func setAPIKey() {
-       weatherUndergroundAPIKey = readAppPlist()
+        weatherUndergroundAPIKey = readAppPlist(key: "API_KEY")
     }
     
     // function to determine if it's night or day
