@@ -41,12 +41,10 @@ class AppHelper: NSObject {
         }
         
         if let resourceFileDictionaryContent = resourceFileDictionary {
-            
-            // Get value from App.plist that matches the key parameter
+            // Get value from App.plist that matches the key parameter if it exists
             if resourceFileDictionaryContent.object(forKey: key) != nil {
                 returnValue = resourceFileDictionaryContent.object(forKey: key)! as! String
             }
-            
         }
         return returnValue
     }
